@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   /* Old browsers */
   background: #141E30;
@@ -6,7 +9,53 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(-45deg, #35577D, #141E30);
   margin: 0;
-  padding: 20%;
+  padding: 0px 75px 75px 100px;
+  font-family: 'Raleway', sans-serif;
+
+}
+#nav{
+    font-family: sans-serif;
+	text-align: left;
+	background: #ccccff;
+    margin: 0px 0px;
+	margin-top: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+#nav ul{
+    display: :inline;
+    background-color: rgb(0,0,0,0.3);
+    padding:10px;
+}
+#nav ul li{
+    display: inline;
+    text-align: :left;
+    
+}
+#nav ul li a{
+	font-size: 14px;
+	color: #555;
+	text-decoration: none;
+	padding: 3px 5px;
+    font-style: normal;
+}
+#nav ul li a:hover{
+    background: #333;
+    font-weight: bold;
+	color: #fff;
+}
+.backimage {
+  background-image: url("/assets/images/cover.jpeg");
+  /* Half height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   color: #FFF;
@@ -16,7 +65,7 @@ h1 {
   text-align:center;
 }
 .intro{
-	font-weight: 100;
+  font-weight: 100;
   font-size: 22px;
   padding-bottom: 30px;
   text-align: center;
@@ -40,4 +89,14 @@ p {
   line-height: 1.3em;
   text-align: left;
   width: 100%;
+}
+.projectWork h4 a{
+    color: #d6d5e0;
+	text-decoration: none;
+    padding-bottom: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+body {
+    height: 100%;
 }
