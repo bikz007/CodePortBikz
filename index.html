@@ -7,30 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="./assets/css/main.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
     
 <body>
-    
-    <div id="nav">
-        <!Navigation bar-->
-        <ul>
-            <li><a href="./index.html" style="font-size:1.8em">BIKRAM MODAK</a></li>
-            <li><a href="https://github.com/bikz007" target="_blank">About Me</a></li>
-            <li><a href="./index.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="backimage">
-        
-        <h1>Hi,&nbsp; I'm Bikram</h1>
-        <div class="Intro">
-            <p>Hello World!</br>I'm a coder.Basically at the learning phase of full stack developer.I code,learn and listen &nbsp;- usually not in that order.</p>
+        <div id="nav">
+            <!Navigation bar-->
+            <ul>
+                <img src="./assets/images/dp.jpg" height="40" width="40">
+                <li id="home"><a href="./index.html">BIKRAM MODAK</a></li>
+                <li><a href="#projectWork">Recent Posts</a></li>
+                <li><a href="https://github.com/bikz007" target="_blank">About Me</a></li>
+                <li><a href="./index.html">Contact</a></li>
+            </ul>
         </div>
     
-    </div>
+        <div class="hero-image">
+        </div>
+        <div class="hero-text">
+            <h1 style="font-size:50px">Hi,&nbsp; I'm Bikram</h1>
+            <p>Hello World!<br>I'm a coder.Basically at the learning phase of full stack developer.<br>
+            I code,learn and listen &nbsp;&nbsp;&nbsp;-usually not in that order.</p>
+        </div>
     
-	<div  class="projectWork">
+	<div  id="projectWork">
         
-		<h2>My Project Works</h2>
+        <h2><span><img src="./assets/images/dp.jpg" height="40" width="40"></span>&nbsp;My Project Works</h2>
 		<h3>Recent Posts</h3>
         
 		<h4><a href="https://github.com/bikz007/messenger" target="_blank">Messenger Api</a></h4>
@@ -54,9 +57,17 @@
 		</div>
         <h4><a href="https://github.com/bikz007/cryptonotifier-app" target="_blank">Crypto Alert App</a></h4>
         <div class="cryptonotifier">
-            
+            <p>A cross platform app made with electron javascript framework and node.js<br>
+                it fetches cryptocurrency rates from various sources and keeps track and notifies user if the desired limit set by
+                user is exceeded.
+            </p>
         </div>
 	</div>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual
+files as needed -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
