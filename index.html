@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="./assets/css/main.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
     
 <body>
-        <div id="nav">
-            <!Navigation bar-->
+        <!--<div id="nav">
             <ul>
                 <img src="./assets/images/dp.jpg" height="40" width="40">
                 <li id="home"><a href="./index.html">BIKRAM MODAK</a></li>
@@ -21,7 +20,30 @@
                 <li><a href="https://github.com/bikz007" target="_blank">About Me</a></li>
                 <li><a href="./index.html">Contact</a></li>
             </ul>
-        </div>
+        </div>-->
+
+        <header>
+            <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:#EF5350;">
+                  <a class="navbar-brand mx-auto" href="./index.html">
+                    <img src="./assets/images/dp.jpg" width="22" height="24" class="d-inline-block align-right" alt="">
+                Bikram Modak</a>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="nav navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#projectWork">Recent Posts</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                       </ul>
+                  </div>
+          
+            </nav>
+        </header>
     
         <div class="hero-image">
         </div>
@@ -31,10 +53,23 @@
             I code,learn and listen &nbsp;&nbsp;&nbsp;-usually not in that order.</p>
         </div>
     
-	<div  id="projectWork">
+	<div  id="projectWork" class="container-fluid">
         
-        <h2><span><img src="./assets/images/dp.jpg" height="40" width="40"></span>&nbsp;My Project Works</h2>
-		<h3>Recent Posts</h3>
+        <h2>&nbsp;<br><br><br>My Project Works</h2>
+		<h3>Recent Posts<br><br></h3>
+
+        <h4><a href="https://github.com/bikz007/Arduino_Sketches" target="_blank">Some Arduino Sketches which i have worked on</a></h4>
+        <div class="arduinosketches">
+            <p>
+                Some basic arduino and nodemcu sketches,useful for beginners.
+            </p>
+        </div>
+        <h4><a href="#" target="_blank">Burglar Alarm</a></h4>
+        <div class="burglaralarm">
+            <p>
+                IOT application,will notify user if burglars or unknown person enters into your property.
+            </p>
+        </div>
         
 		<h4><a href="https://github.com/bikz007/cryptonotifier-app" target="_blank">Crypto Alert App</a></h4>
         <div class="cryptonotifier">
@@ -63,12 +98,18 @@
 				will be adding features such as which links are clicked most of the times,etc.
 			</p>
 		</div>
-	</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual
-files as needed -->
-<script src="/bootstrap/js/bootstrap.min.js"></script>
+	</div>
+    <footer>
+        <div  id="projectWork" class="container-fluid">
+            
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
