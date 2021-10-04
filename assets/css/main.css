@@ -13,6 +13,16 @@ body {
   padding: 0px 75px 75px 100px;
   font-family: 'Raleway', sans-serif;
 }
+::selection {
+  background-color: grey;
+}
+::-webkit-scrollbar {
+      width: 2px;
+      background-color: darkslategrey;
+  }
+  ::-webkit-scrollbar-thumb {
+      background-color: #F44336;
+    }
 
 .hero-image {
     background-image: url("");
